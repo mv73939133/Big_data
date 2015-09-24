@@ -1,0 +1,37 @@
+
+Assignment1                                                                Venkata Mangina
+                                                                               914-60-7345
+
+1.	The Subject of the data warehouse is ‘ Sales of Tickets’ .
+
+2.	The fact table of the datawarehouse is    sales of tickets :  Ticket price, Number of tickets purchased , Movie Id , Theater Id, Cnumber , CC# , Day
+
+
+3.	The Dimensions of the solution are :
+•	Movies :MovieID , Movie Name , Release Day.  Descriptive : Movie name , Rollup : release Day
+•	Theater : TheaterId, Tname, Loction, Screen Number, ST Id, Start Time. Descriptive : Tname , Rollup:Location -> Screen Number -> Screen Type ID
+•	Customer : Cnumber, Cname  . Descriptive : Cname Rollup : None.
+•	Credit Card : CC# , Pur Date , Num Returned.  Descriptive : None Rollup : Purdate
+•	Time : Day , Week, Month , Quarter , Year.  Descriptive : None , Rollup : Day-> Week -> Month -> Quarter -> year
+
+4.	  Star schema :
+
+
+
+
+
+Dimensions around the fact table
+
+
+
+
+
+
+5.	 Questions we can Pose : 
+•	Number of customers visiting theater depending on screen size?
+•	Longest period of days a movie played in  a theater ?
+•	Number of tickets purchased on a credit card?
+•	Frequency of a customer?
+•	customer who frequently  returns tickets?
+
+
